@@ -1,0 +1,762 @@
+2022-01-16 11:37:06,068:INFO:Initializing load_model()
+2022-01-16 11:37:06,069:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 11:37:06,083:INFO:Initializing load_model()
+2022-01-16 11:37:06,084:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 11:37:06,093:INFO:Initializing load_model()
+2022-01-16 11:37:06,094:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 11:37:07,823:INFO:Initializing predict_model()
+2022-01-16 11:37:07,825:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 11:37:07,833:INFO:Checking exceptions
+2022-01-16 11:37:07,834:INFO:Preloading libraries
+2022-01-16 11:37:08,071:INFO:Initializing predict_model()
+2022-01-16 11:37:08,072:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 11:37:08,078:INFO:Checking exceptions
+2022-01-16 11:37:08,079:INFO:Preloading libraries
+2022-01-16 14:50:23,025:INFO:Initializing load_model()
+2022-01-16 14:50:23,027:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 14:50:23,055:INFO:Initializing load_model()
+2022-01-16 14:50:23,056:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 14:50:23,082:INFO:Initializing load_model()
+2022-01-16 14:50:23,083:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 14:50:24,406:INFO:Initializing predict_model()
+2022-01-16 14:50:24,407:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 14:50:24,414:INFO:Checking exceptions
+2022-01-16 14:50:24,414:INFO:Preloading libraries
+2022-01-16 14:50:24,684:INFO:Initializing predict_model()
+2022-01-16 14:50:24,684:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 14:50:24,688:INFO:Checking exceptions
+2022-01-16 14:50:24,689:INFO:Preloading libraries
+2022-01-16 16:17:38,192:INFO:Initializing load_model()
+2022-01-16 16:17:38,194:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:17:38,226:INFO:Initializing load_model()
+2022-01-16 16:17:38,227:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:17:38,244:INFO:Initializing load_model()
+2022-01-16 16:17:38,245:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:17:39,695:INFO:Initializing predict_model()
+2022-01-16 16:17:39,697:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:17:39,706:INFO:Checking exceptions
+2022-01-16 16:17:39,707:INFO:Preloading libraries
+2022-01-16 16:17:40,016:INFO:Initializing predict_model()
+2022-01-16 16:17:40,017:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:17:40,034:INFO:Checking exceptions
+2022-01-16 16:17:40,035:INFO:Preloading libraries
+2022-01-16 16:18:24,217:INFO:Initializing load_model()
+2022-01-16 16:18:24,219:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:24,227:INFO:Initializing load_model()
+2022-01-16 16:18:24,228:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:24,238:INFO:Initializing load_model()
+2022-01-16 16:18:24,239:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:25,978:INFO:Initializing load_model()
+2022-01-16 16:18:25,979:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:25,998:INFO:Initializing load_model()
+2022-01-16 16:18:26,000:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:26,021:INFO:Initializing load_model()
+2022-01-16 16:18:26,022:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:26,107:INFO:Initializing predict_model()
+2022-01-16 16:18:26,108:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:26,116:INFO:Checking exceptions
+2022-01-16 16:18:26,117:INFO:Preloading libraries
+2022-01-16 16:18:26,453:INFO:Initializing predict_model()
+2022-01-16 16:18:26,454:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:26,464:INFO:Checking exceptions
+2022-01-16 16:18:26,465:INFO:Preloading libraries
+2022-01-16 16:18:36,718:INFO:Initializing load_model()
+2022-01-16 16:18:36,719:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:36,754:INFO:Initializing load_model()
+2022-01-16 16:18:36,757:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:36,787:INFO:Initializing load_model()
+2022-01-16 16:18:36,789:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:36,896:INFO:Initializing predict_model()
+2022-01-16 16:18:36,898:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:36,908:INFO:Checking exceptions
+2022-01-16 16:18:36,909:INFO:Preloading libraries
+2022-01-16 16:18:37,364:INFO:Initializing predict_model()
+2022-01-16 16:18:37,365:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:37,376:INFO:Checking exceptions
+2022-01-16 16:18:37,379:INFO:Preloading libraries
+2022-01-16 16:18:51,984:INFO:Initializing load_model()
+2022-01-16 16:18:51,987:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:52,024:INFO:Initializing load_model()
+2022-01-16 16:18:52,028:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:52,059:INFO:Initializing load_model()
+2022-01-16 16:18:52,061:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:18:52,178:INFO:Initializing predict_model()
+2022-01-16 16:18:52,180:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:52,185:INFO:Checking exceptions
+2022-01-16 16:18:52,186:INFO:Preloading libraries
+2022-01-16 16:18:52,432:INFO:Initializing predict_model()
+2022-01-16 16:18:52,435:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:18:52,465:INFO:Checking exceptions
+2022-01-16 16:18:52,465:INFO:Preloading libraries
+2022-01-16 16:19:16,104:INFO:Initializing load_model()
+2022-01-16 16:19:16,105:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:16,122:INFO:Initializing load_model()
+2022-01-16 16:19:16,123:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:16,141:INFO:Initializing load_model()
+2022-01-16 16:19:16,142:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:16,209:INFO:Initializing predict_model()
+2022-01-16 16:19:16,210:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:16,218:INFO:Checking exceptions
+2022-01-16 16:19:16,219:INFO:Preloading libraries
+2022-01-16 16:19:16,558:INFO:Initializing predict_model()
+2022-01-16 16:19:16,560:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:16,571:INFO:Checking exceptions
+2022-01-16 16:19:16,573:INFO:Preloading libraries
+2022-01-16 16:19:42,158:INFO:Initializing load_model()
+2022-01-16 16:19:42,160:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:42,218:INFO:Initializing load_model()
+2022-01-16 16:19:42,220:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:42,254:INFO:Initializing load_model()
+2022-01-16 16:19:42,255:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:42,398:INFO:Initializing predict_model()
+2022-01-16 16:19:42,403:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:42,422:INFO:Checking exceptions
+2022-01-16 16:19:42,423:INFO:Preloading libraries
+2022-01-16 16:19:42,678:INFO:Initializing predict_model()
+2022-01-16 16:19:42,679:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:42,686:INFO:Checking exceptions
+2022-01-16 16:19:42,687:INFO:Preloading libraries
+2022-01-16 16:19:52,125:INFO:Initializing load_model()
+2022-01-16 16:19:52,126:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:52,145:INFO:Initializing load_model()
+2022-01-16 16:19:52,146:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:52,159:INFO:Initializing load_model()
+2022-01-16 16:19:52,160:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 16:19:52,218:INFO:Initializing predict_model()
+2022-01-16 16:19:52,220:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:52,227:INFO:Checking exceptions
+2022-01-16 16:19:52,227:INFO:Preloading libraries
+2022-01-16 16:19:52,536:INFO:Initializing predict_model()
+2022-01-16 16:19:52,537:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 16:19:52,547:INFO:Checking exceptions
+2022-01-16 16:19:52,548:INFO:Preloading libraries
+2022-01-16 17:06:33,914:INFO:Initializing load_model()
+2022-01-16 17:06:33,917:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 17:06:33,969:INFO:Initializing load_model()
+2022-01-16 17:06:33,970:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 17:06:33,990:INFO:Initializing load_model()
+2022-01-16 17:06:33,991:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 17:06:34,164:INFO:Initializing predict_model()
+2022-01-16 17:06:34,166:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:06:34,174:INFO:Checking exceptions
+2022-01-16 17:06:34,175:INFO:Preloading libraries
+2022-01-16 17:06:34,603:INFO:Initializing predict_model()
+2022-01-16 17:06:34,603:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:06:34,609:INFO:Checking exceptions
+2022-01-16 17:06:34,610:INFO:Preloading libraries
+2022-01-16 17:10:08,687:INFO:Initializing load_model()
+2022-01-16 17:10:08,688:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:08,717:INFO:Initializing load_model()
+2022-01-16 17:10:08,717:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:08,736:INFO:Initializing load_model()
+2022-01-16 17:10:08,737:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:08,814:INFO:Initializing predict_model()
+2022-01-16 17:10:08,815:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:10:08,822:INFO:Checking exceptions
+2022-01-16 17:10:08,823:INFO:Preloading libraries
+2022-01-16 17:10:09,208:INFO:Initializing predict_model()
+2022-01-16 17:10:09,209:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:10:09,222:INFO:Checking exceptions
+2022-01-16 17:10:09,223:INFO:Preloading libraries
+2022-01-16 17:10:17,957:INFO:Initializing load_model()
+2022-01-16 17:10:17,961:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:17,996:INFO:Initializing load_model()
+2022-01-16 17:10:17,997:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:18,013:INFO:Initializing load_model()
+2022-01-16 17:10:18,013:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 17:10:18,079:INFO:Initializing predict_model()
+2022-01-16 17:10:18,080:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:10:18,089:INFO:Checking exceptions
+2022-01-16 17:10:18,090:INFO:Preloading libraries
+2022-01-16 17:10:18,518:INFO:Initializing predict_model()
+2022-01-16 17:10:18,520:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:10:18,526:INFO:Checking exceptions
+2022-01-16 17:10:18,527:INFO:Preloading libraries
+2022-01-16 17:11:34,042:INFO:Initializing load_model()
+2022-01-16 17:11:34,043:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:34,066:INFO:Initializing load_model()
+2022-01-16 17:11:34,067:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:34,092:INFO:Initializing load_model()
+2022-01-16 17:11:34,094:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:34,177:INFO:Initializing predict_model()
+2022-01-16 17:11:34,179:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:11:34,190:INFO:Checking exceptions
+2022-01-16 17:11:34,191:INFO:Preloading libraries
+2022-01-16 17:11:34,523:INFO:Initializing predict_model()
+2022-01-16 17:11:34,524:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:11:34,534:INFO:Checking exceptions
+2022-01-16 17:11:34,535:INFO:Preloading libraries
+2022-01-16 17:11:55,175:INFO:Initializing load_model()
+2022-01-16 17:11:55,176:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/TotalRisk, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:55,203:INFO:Initializing load_model()
+2022-01-16 17:11:55,204:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/Diab, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:55,224:INFO:Initializing load_model()
+2022-01-16 17:11:55,225:INFO:load_model(model_name=c:/Users/anagh/OneDrive/SRH/thesis/Code/pressure, platform=None, authentication=None, verbose=True)
+2022-01-16 17:11:55,293:INFO:Initializing predict_model()
+2022-01-16 17:11:55,293:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', QuadraticDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:11:55,301:INFO:Checking exceptions
+2022-01-16 17:11:55,301:INFO:Preloading libraries
+2022-01-16 17:11:55,609:INFO:Initializing predict_model()
+2022-01-16 17:11:55,611:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Risk')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Risk')),
+                ('fix_perfect', Remove_100(target='Risk')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', RidgeClassifier(random_state=123)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-01-16 17:11:55,617:INFO:Checking exceptions
+2022-01-16 17:11:55,618:INFO:Preloading libraries
