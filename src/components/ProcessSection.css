@@ -1,0 +1,14 @@
+#process-section{
+    /* border:1px solid red; */
+    margin-top: 50px;
+    text-align: center;
+}
+#process-title{
+    font-family: "Balsamiq_Sans";
+    color: #020826;
+}
+#process-section-img{
+    margin-top: 50px;
+    width: 350px;
+    height: 300px
+}

@@ -1,0 +1,11 @@
+.modal-footer {
+  justify-content: center !important;
+  display: initial !important;
+}
+#finish-btn {
+  background-color: #020826;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  margin-top: 20px;
+}

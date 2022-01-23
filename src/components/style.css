@@ -1,0 +1,33 @@
+.primaryBtn,
+.primaryBtn:hover,
+.primaryBtn:active,
+.primaryBtn:focus {
+  background-color: rgba(242, 95, 76, 0.4);
+  border: none;
+  color: #020826;
+  font-variant-caps: all-small-caps;
+  font-weight: 500;
+  outline: none;
+}
+.outlinedBtn,
+.outlinedBtn:hover,
+.outlinedBtn:active,
+.outlinedBtn:focus {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: #020826;
+  font-variant-caps: all-small-caps;
+  font-weight: 500;
+  outline: none;
+}
+.linkBtn,
+.linkBtn:hover,
+.linkBtn:active,
+.linkBtn:focus {
+  background-color: transparent;
+  border: none;
+  color: #0d6efd;
+  padding: 0;
+  text-decoration: underline;
+  outline: none;
+}

@@ -1,0 +1,26 @@
+#home-section{
+    height: 500px;
+    background-color: rgba(242, 95, 76, 0.2);
+    padding:0 100px
+}
+#home-title{
+    margin-top: 90px;
+    font-family: "Balsamiq_Sans";
+    color: #020826;
+}
+#home-content{
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #020826;
+}
+#home-get-started-btn,#home-get-started-btn:focus{
+    background-color: #020826;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+}
+#home-img{
+    height: 500px;
+}

@@ -1,0 +1,21 @@
+#video-section {
+  /* margin: 50px 0 0 40px; */
+  /* border-right: 2px solid rgba(0, 0, 0, 0.2); */
+}
+#video-card {
+  margin-bottom:20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 228px;
+}
+.card-body > .h5{
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.video-decription{
+  font-size: 12px;
+  white-space: nowrap; 
+  width: inherit; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}

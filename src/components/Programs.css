@@ -1,0 +1,53 @@
+#programs-section {
+  height: 700px;
+  background-color: rgba(242, 95, 76, 0.2);
+  margin-top: 90px;
+  text-align: center;
+  padding-left: 60px;
+}
+#programs-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -50px;
+  font-family: "Balsamiq_Sans";
+}
+#yoga-card {
+  background-image: url("../assets/images/yoga.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+#cardio-card {
+  background-image: url("../assets/images/cardio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+#meditate-card {
+  background-image: url("../assets/images/meditate.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+#card-overlay{
+    background-color: rgba(0,0,0,0.6);
+    min-height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 225px 0;
+}
+#card-overlay > h1{
+    color: #ffffff;
+    font-family: "Dancing_Script";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

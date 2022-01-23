@@ -1,0 +1,11 @@
+#progress-circle {
+  height: 60px;
+  width: 60px;
+  /* float: left; */
+}
+#riskPercentageText{
+  /* float: right;
+  text-align: right;
+  margin-top: 20px; */
+  font-size: 12px;
+}
