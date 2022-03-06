@@ -39,19 +39,19 @@ def run():
     else:
         st.success('You have low chances of Hypertension')
     #Alerts for abnormality    
-    HR = st.number_input('Heart rate', min_value = 50.0, max_value = 200.0, value = 111.0, step=1e-2, format="%.1f")
+    HR = st.number_input('Heart rate', min_value = 50.0, max_value = 200.0, value = 111.0, step=0.1, format="%.1f")
     if HR <=63 or HR >= 113:
         st.error('Your heart rate is abnormal')
-    RR = st.number_input('Respiratory rate', min_value = 5.0, max_value= 30.0, value = 20.0, step=1e-2, format="%.1f")
+    RR = st.number_input('Respiratory rate', min_value = 5.0, max_value= 30.0, value = 20.0, step=0.1, format="%.1f")
     if RR <=7 or RR >= 24:
         st.error('Your respiratory rate is abnormal')
-    SpO2 = st.number_input('Oxygen Saturation SpO2', max_value = 100.0, value = 95.0, step=1e-2)
+    SpO2 = st.number_input('Oxygen Saturation SpO2', max_value = 100.0, value = 95.0, step=0.1)
     if SpO2 <= 92:
         st.error('Your Oxygen saturation is abnormal')
-    BT = st.number_input('Body temperature (`C)', value =36.0, step=1e-2,format="%.1f")
+    BT = st.number_input('Body temperature (`C)', value =36.0, step=0.1,format="%.1f")
     if BT <= 35 or BT >= 38:
         st.error('Your body temparature is abnormal')
-    GDM = st.number_input('Fasting Glucose', value = 75.0, step=1e-2, format="%.1f")
+    GDM = st.number_input('Fasting Glucose', value = 75.0, step=0.1, format="%.1f")
         
     input_dict = {'Age':age, 'Gage': Gage, 'BMI': BMI, 'SBP': SBP, 'DBP': DBP, 'HR': HR, 'RR': RR, 'Parity': Parity, 'GDM': GDM}
     input_df = pd.DataFrame([input_dict])
