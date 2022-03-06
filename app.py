@@ -45,7 +45,7 @@ def run():
     RR = st.number_input('Respiratory rate', min_value = 5.0, max_value= 30.0, value = 20.0, step=0.1, format="%.1f")
     if RR <=7 or RR >= 24:
         st.error('Your respiratory rate is abnormal')
-    SpO2 = st.number_input('Oxygen Saturation SpO2', max_value = 100.0, value = 95.0, step=0.1)
+    SpO2 = st.number_input('Oxygen Saturation SpO2', max_value = 100.0, value = 95.0, step=0.1, format="%.1f")
     if SpO2 <= 92:
         st.error('Your Oxygen saturation is abnormal')
     BT = st.number_input('Body temperature (`C)', value =36.0, step=0.1,format="%.1f")
