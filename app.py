@@ -26,8 +26,8 @@ def run():
     
     BMI = (weight*100*100)/(height*height)
     
-    SBP = st.number_input('Systolic blood pressure', value = 120.0)
-    DBP = st.number_input('Diastolic blood pressure', value = 80.0)
+    SBP = st.number_input('Systolic blood pressure', value = 120)
+    DBP = st.number_input('Diastolic blood pressure', value = 80)
     #Predict Hypertension
     HT_input_dict = {'AGE':age,'PARITY':Parity,'SBP': SBP, 'DBP': DBP, 'Gage':Gage,'BMI': BMI}
     HT_input = pd.DataFrame([HT_input_dict])
