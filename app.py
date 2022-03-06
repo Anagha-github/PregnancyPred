@@ -20,7 +20,7 @@ def run():
     #Capture
     age = st.number_input('Age', min_value = 14, max_value = 55, value= 21)
     Parity = st.number_input('Number of pregnancies', value = 0)
-    Gage = st.number_input('Gestational age (weeks)', min_value = 1.0, max_value = 45.0)
+    Gage = st.number_input('Gestational age (weeks)', min_value = 1, max_value = 45)
     height = st.number_input('Height(cm)', value = 150)
     weight = st.number_input('Weight(kg)', value = 60)
     
