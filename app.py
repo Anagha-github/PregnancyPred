@@ -5,9 +5,9 @@ import streamlit as st
 import pandas as pd
 import base64
 
-model = load_model('c:/Users/anagh/OneDrive/SRH/thesis/MasterThesis/Main_lightgbm')
-Diab = load_model('c:/Users/anagh/OneDrive/SRH/thesis/MasterThesis/Diab_tuneRF')
-pressure = load_model('c:/Users/anagh/OneDrive/SRH/thesis/MasterThesis/Pressure')
+model = load_model('Main_lightgbm')
+Diab = load_model('Diab_tuneRF')
+pressure = load_model('Pressure')
 
 def run():
     from PIL import Image
